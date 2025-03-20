@@ -537,6 +537,19 @@ def intersection(l1,l2):
   return l3
 print(intersection(l1,l2))
 ```
-5. [Union de listes](ex4.3)
+3. [Union de listes](ex4.3)
+```{code-cell}
+l1 = [2, 5, 8, 12, 14, 3]
+l2 = [3, 1, -1]
+
+def union(l1, l2):
+    l3 = list(l1) 
+    for e in l2:
+        if e not in l3:
+            l3.append(e)
+    return l3
+
+print(union(l1, l2))
+```
 
 
