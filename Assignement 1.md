@@ -523,7 +523,7 @@ def argmax(l):
 v,k=argmax(l)
 print("Max vente :", v, "------->", mois[k])
 ```
-3. [Intersection de listes](ex4.2)
+2. [Intersection de listes](ex4.2)
 ```{code-cell}
 l1=[2,5,8,12,14,3]
 l2=[3,1,-1]
