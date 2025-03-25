@@ -551,5 +551,13 @@ def union(l1, l2):
 
 print(union(l1, l2))
 ```
-
+```{code-cell}
+# Ex1
+def verifier(l):
+  for i in range(len(l)-1):
+    if l[i]>l[i+1]:
+      return False
+  return True
+verifier([0, 5, 8, 8, 9])
+```
 
