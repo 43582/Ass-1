@@ -560,4 +560,36 @@ def verifier(l):
   return True
 verifier([0, 5, 8, 8, 9])
 ```
+```{code-cell}
+#ex2
+def dep1(l):
+  d=dict()
+  for i in l:
+    if i in d:
+      d[i]+=1
+    else:
+      d[i]=1
+  return d
+print("sol 1", dep1(['A', 'A', 'A', 'B', 'C', 'B', 'C', 'B', 'C', 'B']))
 
+
+
+def dep2(l):
+  d =dict()
+  for e in l:
+    if e not in d:
+      d[e]=l.count(e)
+  return d
+print("sol 2",dep2(['A', 'A', 'A', 'B', 'C', 'B', 'C', 'B', 'C', 'B']))
+
+
+def dep3(l):
+  d =dict()
+  for e in l:
+    if e not in d:
+      d[e]=1
+    else:
+      d[e]+=1
+  return d
+print("sol 3",dep3(['A', 'A', 'A', 'B', 'C', 'B', 'C', 'B', 'C', 'B']))
+```
