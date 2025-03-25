@@ -551,6 +551,7 @@ def union(l1, l2):
 
 print(union(l1, l2))
 ```
+ex1:
 ```{code-cell}
 # Ex1
 def verifier(l):
@@ -560,6 +561,7 @@ def verifier(l):
   return True
 verifier([0, 5, 8, 8, 9])
 ```
+ex2:
 ```{code-cell}
 #ex2
 def dep1(l):
